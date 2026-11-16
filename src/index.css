@@ -1,0 +1,65 @@
+.navbar{
+  background-color: black;
+  padding: 20px 40px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  box-shadow: 3px 2px 8px black;
+  color:aliceblue;
+  margin-bottom: 60px;
+}
+*{
+  margin: 0;
+}
+
+.card{
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 13px black;
+  transition: transform 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px black;
+
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card h2{
+  font-size: 20px;
+  margin: 12px 0;
+  font-weight: bold;
+}
+.card p{
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.card h4{
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.course-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+
